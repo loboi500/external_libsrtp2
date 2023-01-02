@@ -1,11 +1,3 @@
-prefix=@prefix@
-exec_prefix=@prefix@
-libdir=@libdir@
-includedir=@includedir@
-
-Name: @PACKAGE_NAME@
-Version: @PACKAGE_VERSION@
-Description: Library for SRTP (Secure Realtime Transport Protocol)
-
-Libs: -L${libdir} -lsrtp2 @LIBS@
-Cflags: -I${includedir}
+version https://git-lfs.github.com/spec/v1
+oid sha256:03ad863e6338cda6b98eaa37c464997c630471691deb4a3d7b5df91d93782135
+size 251

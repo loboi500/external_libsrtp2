@@ -1,10 +1,3 @@
-#!/bin/sh
-# 
-# usage: undos <file>
-# 
-# strips CRs from a file - useful when moving DOS-created files
-# onto UN*X machines
-
-cat $1 | tr -d "\r" > $1.tmp
-mv $1.tmp $1
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:daa09635f94abf639d113b531c695bc5e7594a99593997ca5d5d95f48c5ee513
+size 167

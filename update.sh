@@ -1,15 +1,3 @@
-#!/bin/sh
-#
-# update.sh
-#
-# update copyright dates in files
-
-a=`find . -name "*.[ch]"`
-for x in $a; do 
-    sed 's/(c) 2001-2005/(c) 2001-2006/' $x > $x.tmp; 
-    mv $x.tmp $x; 
-done
-
-
-
- 
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9fb245947d98b7b1fea6743bec49757825aff98dfd487dada1ff5bd67471472
+size 188
